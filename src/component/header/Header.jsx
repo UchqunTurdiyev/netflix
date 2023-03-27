@@ -10,7 +10,7 @@ export const Header = () => {
 		return () => (window.onscroll = null);
 	};
 	return (
-		<div className='transition-all'>
+		<div className='w-full transition-all z-50 absolute left-0 top-0'>
 			<header
 				className={
 					isScroll
